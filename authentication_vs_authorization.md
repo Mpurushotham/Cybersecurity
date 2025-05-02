@@ -149,20 +149,38 @@ app.listen(3000, () => {
  * 1.	Authentication: The /login endpoint receives a username and password, checks them against the stored user data, and if valid, returns a JWT token. The token contains a payload with user info (such as role).
  * 2.	Authorization: The authorize middleware verifies the JWT token and checks if the user has the appropriate role to access the requested resource (e.g., only admin users can access /admin).
 
-# Key Differences Between Authentication and Authorization
+# Authentication vs Authorization
 
-|Authentication| |Authorization|
-----------------------------------
-|Verifies the identity of a user.|Determines the permissions of an authenticated user.|
-|Typically uses username and password or biometrics.|Typically uses roles or permissions tied to the user.|
-|Occurs first, before the user can access any resource.|Occurs after successful authentication to control access.|
-|Example: Login page where users input their username and password.|Example: Role-based access control to grant or deny access to certain pages.|
------------------------------------
+## Authentication
 
-# Conclusion
-	
- * •	Authentication is about ensuring that the user is who they claim to be.
- * •	Authorization is about ensuring that authenticated users have the correct permissions to access the resources they request.
+- **Definition**: Verifies the **identity** of a user.
+- **Method**: Typically uses **username and password** or **biometrics** to authenticate the user.
+- **Order of Occurrence**: Happens **first**, before the user can access any resource.
+- **Example**: Login page where users input their username and password.
 
-By implementing both Authentication and Authorization correctly, you can ensure that only legitimate users have access to your system and that they can only perform actions they are authorized to do.
+## Authorization
 
+- **Definition**: Determines the **permissions** of an authenticated user.
+- **Method**: Typically uses **roles** or **permissions** tied to the user to grant or deny access.
+- **Order of Occurrence**: Occurs **after** successful authentication to control access to resources.
+- **Example**: Role-based access control (RBAC) to grant or deny access to certain pages or resources based on user roles.
+
+---
+
+## Key Differences Between Authentication and Authorization
+
+| **Authentication** | **Authorization** |
+|-------------------|-------------------|
+| Verifies the **identity** of a user. | Determines the **permissions** of an authenticated user. |
+| Typically uses **username** and **password** or **biometrics**. | Typically uses **roles** or **permissions** tied to the user. |
+| Occurs **first**, before the user can access any resource. | Occurs **after** successful authentication to control access. |
+| **Example**: Login page where users input their username and password. | **Example**: Role-based access control to grant or deny access to certain pages. |
+
+---
+
+## Conclusion
+
+- **Authentication** is the process of validating the user's identity.
+- **Authorization** follows authentication and determines what the authenticated user can do or access.
+
+Both processes are fundamental to ensuring secure access to systems and resources.
