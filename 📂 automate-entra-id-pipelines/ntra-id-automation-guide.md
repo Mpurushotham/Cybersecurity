@@ -200,8 +200,9 @@ resource "azuread_user" "new_hire" {
 ## Troubleshooting <a name="10-troubleshooting"></a>
 
 |**Common Errors | **Error	Solution| 
+|----------------|-------------------|
 |403 Forbidden	|Check API permissions|
-|429 Too Many Requests	| Implement retry logic|
+|** 429 Too Many Requests	|** Implement retry logic|
 
 # Debugging
 
