@@ -1,10 +1,10 @@
-Deep Insights into Authentication Methods in Azure AD (Microsoft Entra ID)
+## Deep Insights into Authentication Methods in Azure AD (Microsoft Entra ID)
 
 Authentication is the process of verifying the identity of users, devices, or services before granting access to resources. Microsoft Entra ID (Azure Active Directory) offers multiple methods for authentication, and each method plays a significant role in strengthening security by ensuring that the user accessing the system is legitimate. Below, we dive deeper into these methods, explaining how each works, step-by-step.
 
 ⸻
 
-1. Password-based Authentication
+# 1. Password-based Authentication
 
 What It Is:
 
@@ -24,7 +24,7 @@ Strengths and Weaknesses:
 
 ⸻
 
-2. Multi-Factor Authentication (MFA)
+# 2. Multi-Factor Authentication (MFA)
 
 What It Is:
 
@@ -51,7 +51,7 @@ Strengths and Weaknesses:
 
 ⸻
 
-3. Windows Hello for Business (Biometric and PIN Authentication)
+# 3. Windows Hello for Business (Biometric and PIN Authentication)
 
 What It Is:
 
@@ -75,7 +75,7 @@ Strengths and Weaknesses:
 
 ⸻
 
-4. Certificate-based Authentication
+# 4. Certificate-based Authentication
 
 What It Is:
 
@@ -99,7 +99,7 @@ Strengths and Weaknesses:
 
 ⸻
 
-5. Federated Authentication (SAML, OAuth, OpenID Connect)
+# 5. Federated Authentication (SAML, OAuth, OpenID Connect)
 
 What It Is:
 
@@ -123,7 +123,7 @@ Strengths and Weaknesses:
 
 ⸻
 
-6. Passwordless Authentication
+# 6. Passwordless Authentication
 
 What It Is:
 
