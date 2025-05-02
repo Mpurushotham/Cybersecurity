@@ -47,21 +47,37 @@ This repository is:
 
 /
 ├── cybersecurity/
+
 │   ├── network-security/
+
 │   ├── identity-access-management/
+
 │   ├── frameworks-standards/
+
 │   └── red-teaming/
+
 ├── cloud/
+
 │   ├── azure/
+
 │   ├── aws/
+
 │   ├── gcp/
+
 │   └── multi-cloud/
+
 ├── devsecops/
+
 │   ├── container-security/
+
 │   ├── ci-cd-security/
+
 │   └── tools/
+
 ├── diagrams/
+
 │   └── architecture-diagrams/
+
 └── README.md
 
 ---
