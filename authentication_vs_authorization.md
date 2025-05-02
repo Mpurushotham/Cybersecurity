@@ -55,8 +55,10 @@ Here’s a simple example of **authentication** and **authorization** using **JW
 ```bash
 npm install express jsonwebtoken bcryptjs
 ```
+
 ## 2. Sample Code for Authentication (JWT) and Authorization (Roles)
 
+```javascript
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
@@ -140,6 +142,7 @@ app.post('/register', (req, res) => {
 app.listen(3000, () => {
   console.log('Server started on http://localhost:3000');
 });
+```
 
 # Explanation:
 	
